@@ -1,0 +1,26 @@
+{
+    "customer": {
+        "id": 1,
+        "firstName": "Jim",
+        "lastName": "New Doe"
+    },
+    "subscription": {
+        "status": "ACTIVE",
+        "startDate": "MMDDYY"
+    },
+    "services": [
+        "Oil Change"
+    ],
+    "vehicles[v_1]": [
+        {
+            "name": "Dodge",
+            "displayName": "Dodge2023",
+            "model": "2023"
+        },
+        {
+            "name": "VW",
+            "displayName": "VW2021",
+            "model": "2021"
+        }
+    ]
+}

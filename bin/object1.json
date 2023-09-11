@@ -1,0 +1,26 @@
+{
+    "customer": {
+        "firstName": "Jim",
+        "lastName": "Doe"
+    },
+    "subscription": {
+        "status": "ACTIVE",
+        "startDate": "2023-05-25"
+    },
+    "services": [
+        "Oil Change",
+        "Interior/Exterior Wash"
+    ],
+    "vehicles[v_1]": [
+        {
+            "name": "Mazda",
+            "displayName": "Mazda2020",
+            "year": "2020"
+        },
+        {
+            "name": "VW",
+            "displayName": "VW2021",
+            "year": "2021"
+        }
+    ]
+}

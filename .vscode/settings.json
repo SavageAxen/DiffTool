@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar"
+        ],
+        "exclude": [
+            "lib/json-simple-1.1.1.jar",
+            "lib/json-20230618.jar",
+            "lib/gson-2.10.1.jar",
+            "lib/jackson-databind-2.11.1.jar"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "customer": {
+        "id": 2,
+        "firstName": "Customer4",
+        "lastName": "4 Doe"
+    },
+    "subscription": {
+        "status": "ACTIVE",
+        "startDate": "MMDDYY"
+    },
+    "services": [
+        "Oil Change",
+        "Tires"
+    ],
+    "vehicles[v_1]": [
+        {
+            "name": "BMW",
+            "displayName": "Mazda2020",
+            "model": "2020"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "customer": {
+        "id": 2,
+        "firstName": "Customer2",
+        "lastName": "Doe"
+    },
+    "subscription": {
+        "status": "INACTIVE",
+        "startDate": "MMDDYY"
+    },
+    "services": [
+        "Oil Change",
+        "Interior/Exterior Wash"
+    ],
+    "vehicles[v_1]": [
+        {
+            "name": "BMW",
+            "displayName": "Mazda2020",
+            "model": "2020"
+        }
+    ]
+}
