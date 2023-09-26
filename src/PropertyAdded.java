@@ -1,11 +1,9 @@
-import java.util.*;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-final class ListUpdate implements ChangeType {
+final class PropertyAdded implements ChangeType {
     String property;
-    List<String> previous;
-    List<String> current;
+    String added;
+    String removed;
 
     public String toJson() {
         try {
@@ -19,7 +17,7 @@ final class ListUpdate implements ChangeType {
 
     @Override
     public String toString() {
-        return "{\"property\": \"" + property + "\", \"previous\": " + previous.toString() + ", \"current\": "
-                + current.toString() + "}";
+        return "{\"property\": \"" + property + "\", \"added\": \"" + added + "\", \"removed\": \"" + removed
+                + "\"}";
     }
 }

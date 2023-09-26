@@ -12,11 +12,11 @@
         "Oil Change",
         "Tires"
     ],
-    "vehicles[v_1]": [
+    "vehicles[v_1]": 
         {
             "name": "BMW",
             "displayName": "Mazda2020",
             "model": "2020"
         }
-    ]
+    
 }

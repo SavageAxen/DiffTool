@@ -11,16 +11,11 @@
     "services": [
         "Oil Change"
     ],
-    "vehicles[v_1]": [
+    "vehicles[v_1]": 
         {
             "name": "Dodge",
             "displayName": "Dodge2023",
             "model": "2023"
-        },
-        {
-            "name": "VW",
-            "displayName": "VW2021",
-            "model": "2021"
         }
-    ]
+    
 }

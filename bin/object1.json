@@ -9,18 +9,13 @@
     },
     "services": [
         "Oil Change",
+        "tires",
         "Interior/Exterior Wash"
     ],
-    "vehicles[v_1]": [
+    "vehicles[v_1]": 
         {
             "name": "Mazda",
             "displayName": "Mazda2020",
             "year": "2020"
-        },
-        {
-            "name": "VW",
-            "displayName": "VW2021",
-            "year": "2021"
         }
-    ]
 }

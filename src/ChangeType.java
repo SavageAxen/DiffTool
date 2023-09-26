@@ -1,3 +1,3 @@
-sealed interface ChangeType permits ListUpdate, PropertyUpdate {
+sealed interface ChangeType permits ListUpdate, PropertyUpdate, PropertyAdded {
 
 }
